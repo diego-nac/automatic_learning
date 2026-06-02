@@ -4,10 +4,19 @@ version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.12"
 dependencies = [
+    "catboost>=1.2.10",
     "jupyterlab>=4.5.7",
+    "lightgbm>=4.6.0",
     "matplotlib>=3.10.9",
+    "mlflow>=2.14,<3",
     "numpy>=2.4.6",
-    "pandas>=3.0.3",
+    "openpyxl>=3.1.5",
+    "pandas<3",
+    "pmdarima>=2.1.1",
+    "protobuf<5",
     "scikit-learn>=1.8.0",
     "seaborn>=0.13.2",
+    "setuptools>=82.0.1",
+    "statsmodels>=0.14.6",
+    "xgboost>=3.2.0",
 ]
