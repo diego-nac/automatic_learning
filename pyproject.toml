@@ -11,6 +11,7 @@ dependencies = [
     "mlflow>=2.14,<3",
     "numpy>=2.4.6",
     "openpyxl>=3.1.5",
+    "optuna>=4.9.0",
     "pandas<3",
     "pmdarima>=2.1.1",
     "protobuf<5",
